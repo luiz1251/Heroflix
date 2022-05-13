@@ -35,7 +35,7 @@ header .logo-heroflix:hover {
 body {
     background-color: linear-gradient(rgba(0,0,0,100),rgba(0,0,0,100)100%);
     font-family: 'Komika-axis', Arial, Times, serif;
-    color: white;
+    color: var(--branco);
 }
 
 header nav a {
