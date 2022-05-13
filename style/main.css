@@ -1,0 +1,128 @@
+:root {
+    --preto: black;
+    --branco: #f8f9fa;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*estrutura*/
+@font-face {
+    font-family: 'Komika-axis';
+    src: url('fonte-komika-axis/KOMIKAX_.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header .logo-heroflix {
+    font-family: 'Komika-axis', Times;
+    font-size: 40px;
+    color: var(--preto);
+    text-decoration: none;
+}
+
+header .logo-heroflix:hover {
+    text-shadow: .1mm .1mm black;
+}
+
+
+body {
+    background-color: linear-gradient(rgba(0,0,0,100),rgba(0,0,0,100)100%);
+    font-family: 'Komika-axis', Arial, Times, serif;
+    color: white;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+
+}
+
+header nav a:hover {
+    font-size: 1.15em;
+    text-decoration: underline;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+    
+}
+/*filme principal*/
+.main-film {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa-blackwidow.jpg');
+
+    height: 500px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-film .description {
+    margin-bottom: 40px;
+    width: 60%;
+    font-size: smaller;
+}
+
+.title {
+    max-width: 200px;
+    margin-top: 15px;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    color: white;
+    border: 0;
+    padding: 15px 30px;
+    font-size: 12px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: .3s;
+    width: 200px;
+    font-family: 'Komika-axis';
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 5px;
+}
+
+.container {
+    margin:10px;
+}
+
+.box-film {
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin-right: 10px;
+}
+
+img.logo-produtora {
+    height: 120px;
+    width: 120px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.container, .botoes {
+    margin-left: 30px;
+}
